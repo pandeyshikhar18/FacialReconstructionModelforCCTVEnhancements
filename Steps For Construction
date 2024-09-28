@@ -1,0 +1,20 @@
+Step 1: Extracting Frames from MP4 Files(535 frames from each video)
+Loop through each folder containing MP4 files.
+For each MP4 file, extract approximately 535 frames.
+Save the extracted frames as images in separate folders, naming each frame sequentially (e.g., frame_001.jpg, frame_002.jpg).
+
+Step 2: Cropping Faces from Frames
+Load each saved frame.
+Use a face detection algorithm (like OpenCV’s Haar Cascades or Dlib’s face detector) to detect faces in the frames.
+Crop the detected faces from the frames.
+Save the cropped faces into a separate folder for each video, organized similarly to the extracted frames.
+
+Step 3: Enhancing Cropped Faces
+Load each cropped face image.
+Apply image enhancement techniques such as super-resolution, deblurring, and noise reduction to improve clarity.
+Save the enhanced images into a separate folder (e.g., enhanced_faces), ensuring the naming corresponds to the original cropped face images.
+
+Step 4: Loading and Comparing Faces
+Load the first 6 images from both the cropped face folder and the enhanced face folder.
+Display the original and enhanced images side-by-side for comparison.
+Showcase the improvement in visual quality.
