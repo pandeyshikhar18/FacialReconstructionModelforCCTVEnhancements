@@ -1,0 +1,6 @@
+--Architecture of Datasets:
+Datasets have 6 folder named 9,10,12,13,14 and 16. Each have 5 mp4 files mainly (cold,low,high,med,warm) and Extracted Datasets are- Frames Folder, Cropped Faces folder and Enhanced Faces Folder. 
+
+---Provided Dataset Link:-https://data.mendeley.com/datasets/f47pm7rwt3/1
+
+---Extracted Datasets link ie.frames,cropped images and enhanced Images from mp4  for "folder 9" only(because all folders cannot be shared because overall data size was 33GB so just one folder is shared for reference):-https://www.dropbox.com/scl/fi/3j918obo57yv8pkgmdb4v/9.rar?rlkey=2c7me9emwe00fc6pop6k0f5xw&st=8nrlw4uc&dl=0
